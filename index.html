@@ -27,14 +27,20 @@
 
     <!-- / Yoast SEO plugin. -->
 
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Caption:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel='stylesheet' id='tn-vendor-accordion-css' href='https://info.blockapescissors.com/wp-content/themes/bas/vendor/accordion/css/accordion.css?ver=5.9.3' media='all' />
     <link rel='stylesheet' id='tn-vendor-lightgallery-css' href='https://info.blockapescissors.com/wp-content/themes/bas/vendor/lightgallery/css/lightgallery-bundle.css?ver=5.9.3' media='all' />
     <link rel='stylesheet' id='tn-vendor-swiper-css' href='https://info.blockapescissors.com/wp-content/themes/bas/vendor/swiper/css/swiper.css?ver=5.9.3' media='all' />
-    <link rel='stylesheet' id='tn-icons-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/fonts/icomoon/style.css?ver=21.37' media='all' />
-    <link rel='stylesheet' id='tn-fonts-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/fonts/style.css?ver=21.37' media='all' />
-    <link rel='stylesheet' id='tn-global-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/css/global.css?ver=21.37' media='all' />
+    <!-- <link rel='stylesheet' id='tn-icons-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/fonts/icomoon/style.css?ver=21.37' media='all' /> -->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- <link rel='stylesheet' id='tn-fonts-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/fonts/style.css?ver=21.37' media='all' /> -->
+    <!-- <link rel='stylesheet' id='tn-global-css' href='https://info.blockapescissors.com/wp-content/themes/bas/assets/css/global.css?ver=21.37' media='all' /> -->
+    <link rel="stylesheet" href="css/global.css">
     <link rel='stylesheet' id='tn-page-css' href='https://info.blockapescissors.com/wp-content/themes/bas/template-parts/pages/front-page/page.css?ver=21.37' media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href='https://info.blockapescissors.com/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3' media='all' />
     <style id='global-styles-inline-css'>
@@ -339,6 +345,32 @@
             font-family: var(--font-family-heading);
             font-weight: 700;
             line-height: 1.25;
+        }
+        
+        .p-hero__video-label-box span {
+            text-transform: uppercase;
+            position: relative;
+            top: 2px;
+        }
+        
+        .c-header-desktop__nav>ul>li>a {
+            font-weight: 800 !important;
+            text-transform: uppercase;
+        }
+        
+        @media (min-width: 1500px) {
+            .c-header-desktop__nav {
+                font-size: 1.9rem;
+            }
+        }
+        
+        .text-heading-1,
+        .p-hero__video-label-box {
+            font-weight: 800;
+        }
+        
+        .t1\:btn--large {
+            font-weight: 800;
         }
         
         .df {
